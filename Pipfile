@@ -7,6 +7,9 @@ name = "pypi"
 jupyterlab = "*"
 pandas = "*"
 altair = "*"
+requests = "*"
+pytz = "*"
+DateTime = "*"
 
 [dev-packages]
 
