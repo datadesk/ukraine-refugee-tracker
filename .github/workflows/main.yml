@@ -2,7 +2,7 @@ name: Scrape
 
 on:
   schedule:
-    - cron: "0 8 * * *" # 9 a.m. every day UTC
+    - cron: "0 11 * * *" # set to run every day at 12:00 CET
   workflow_dispatch:
 
 jobs:
