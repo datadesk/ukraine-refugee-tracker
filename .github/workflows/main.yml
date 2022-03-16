@@ -22,9 +22,9 @@ jobs:
     - name: Run total scraper
       run: pipenv run jupyter execute 1-scrape-total.ipynb
     - name: Run countries scraper
-      run: pipenv run jupyter execute 1-scrape-countries.ipynb      
+      run: pipenv run jupyter execute 2-scrape-countries.ipynb      
     - name: Run processor
-      run: pipenv run jupyter execute 2-process.ipynb      
+      run: pipenv run jupyter execute 3-process.ipynb      
     - name: Add and commit
       id: add_commit
       uses: EndBug/add-and-commit@v8
